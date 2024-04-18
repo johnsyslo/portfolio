@@ -1,6 +1,5 @@
 import Image from 'next/image';
 import Link from 'next/link';
-import Logo from '../../public/logo.png'
 import NavLinks from './nav-links';
 
 export default function Navbar() {
