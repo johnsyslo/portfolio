@@ -3,17 +3,25 @@
 @tailwind utilities;
 
 :root {
-  --foreground: black;
+  --base: #f5f0f0;
+  --text: #4c4f69;
+
 }
 
+/*
 @media (prefers-color-scheme: dark) {
   :root {
-    --foreground: white;
+    --base: white;
   }
 }
+*/
 
 body {
-  color: var(--foreground);
+    background: var(--base);
+    color: var(--text);
+
+    max-width: 700px;
+    margin: auto auto;
 }
 
 @layer utilities {
