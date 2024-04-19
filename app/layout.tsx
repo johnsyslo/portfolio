@@ -1,8 +1,23 @@
 import type { Metadata } from "next";
-import { Inter } from "next/font/google";
+import { Inter, Roboto, Jolly_Lodger } from "next/font/google";
 import "./globals.css";
 
-const inter = Inter({ subsets: ["latin"] });
+const inter = Inter({
+  subsets: ['latin'],
+  variable: '--font-inter',
+})
+
+const roboto = Roboto({
+  weight: ['400', '500', '700'],
+  subsets: ['latin'],
+  variable: '--font-roboto',
+})
+
+const jolly_lodger = Jolly_Lodger({
+  weight: '400',
+  subsets: ['latin'],
+  variable: '--font-jolly',
+})
 
 export const metadata: Metadata = {
   title: "John Syslo",
@@ -16,7 +31,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={inter.className}>{children}</body>
+      <body className={`${roboto.variable} ${inter.variable} ${jolly_lodger.variable}`}>{children}</body>
     </html>
   );
 }

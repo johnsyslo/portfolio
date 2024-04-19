@@ -4,8 +4,9 @@ import Link from 'next/link'
 import React from 'react'
 
 const links = [
-    { name: 'Home', href: '/' },
-    { name: 'About', href: '/about' }
+    { name: 'About', href: '/about' },
+    { name: 'Programming', href: '/programming' },
+    { name: 'GitHub', href: 'https://github.com' }
 ]
 
 export default function NavLinks() {
@@ -17,7 +18,7 @@ export default function NavLinks() {
                     key={link.name}
                     href={link.href}
                     className={clsx(
-                        'text-md px-3 hover:text-indigo-600'
+                        'rounded-2xl text-lg px-3 hover:bg-violet-300 hover:text-violet-600'
                     )}
                 >
                     <p>{link.name}</p>

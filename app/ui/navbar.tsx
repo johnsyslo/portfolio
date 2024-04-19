@@ -4,8 +4,8 @@ import NavLinks from './nav-links';
 
 export default function Navbar() {
     return (
-        <header className="mt-5 content-center text-center">
-            <div className=" text-3xl">
+        <div className="my-5 content-center text-center">
+            <div className="text-3xl font-bold hover:text-violet-600">
                 <Link href="/">
                     <h1>John Syslo</h1>
                 </Link>
@@ -13,6 +13,6 @@ export default function Navbar() {
             <nav className="flex flex-row justify-center items-center">
                 <NavLinks />
             </nav>
-        </header>
+        </div>
     );
 };
