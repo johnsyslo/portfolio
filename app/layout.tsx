@@ -1,5 +1,5 @@
 import type { Metadata } from "next";
-import { Inter, Roboto, Jolly_Lodger } from "next/font/google";
+import { Inter, Roboto } from "next/font/google";
 import "./globals.css";
 
 const inter = Inter({
@@ -11,12 +11,6 @@ const roboto = Roboto({
   weight: ['400', '500', '700'],
   subsets: ['latin'],
   variable: '--font-roboto',
-})
-
-const jolly_lodger = Jolly_Lodger({
-  weight: '400',
-  subsets: ['latin'],
-  variable: '--font-jolly',
 })
 
 export const metadata: Metadata = {
