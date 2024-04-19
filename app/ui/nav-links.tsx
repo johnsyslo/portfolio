@@ -18,7 +18,7 @@ export default function NavLinks() {
                     key={link.name}
                     href={link.href}
                     className={clsx(
-                        'rounded-2xl text-lg px-3 hover:bg-violet-300 hover:text-violet-600'
+                        'rounded-full text-lg px-3 hover:bg-violet-300 hover:text-violet-600'
                     )}
                 >
                     <p>{link.name}</p>
