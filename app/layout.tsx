@@ -25,7 +25,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={`${roboto.variable} ${inter.variable} ${jolly_lodger.variable}`}>{children}</body>
+      <body className={`${roboto.variable} ${inter.variable}`}>{children}</body>
     </html>
   );
 }
