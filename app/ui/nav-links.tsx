@@ -17,10 +17,10 @@ export default function NavLinks() {
                     key={link.name}
                     href={link.href}
                     className={clsx(
-                        'flex h-[40px] items-center grow rounded-md p-3 mx-3 text-md font-medium hover:text-indigo-600' /*className="hidden md:block' */
+                        'text-md px-3 hover:text-indigo-600'
                     )}
                 >
-                    <p /*className="hidden md:block" */>{link.name}</p>
+                    <p>{link.name}</p>
                 </Link>
             )
         }) )}
