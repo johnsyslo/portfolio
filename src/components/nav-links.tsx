@@ -6,7 +6,7 @@ import React from 'react';
 const links = [
   { name: 'About', href: '/about' },
   { name: 'Programming', href: '/programming' },
-  { name: 'GitHub', href: 'https://github.com' },
+  { name: 'GitHub', href: 'https://github.com/johnsyslo/' },
 ];
 
 export default function NavLinks() {
