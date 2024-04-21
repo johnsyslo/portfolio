@@ -7,12 +7,6 @@ const inter = Inter({
   variable: '--font-inter',
 });
 
-const roboto = Roboto({
-  weight: ['400', '500', '700'],
-  subsets: ['latin'],
-  variable: '--font-roboto',
-});
-
 export const metadata: Metadata = {
   metadataBase: new URL('https://johnsyslo.com'),
   title: 'John Syslo',
@@ -46,7 +40,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={`${roboto.variable} ${inter.variable}`}>{children}</body>
+      <body className={`${inter.variable}`}>{children}</body>
     </html>
   );
 }
