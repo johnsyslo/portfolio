@@ -1,15 +1,11 @@
 import Navbar from '@/components/navbar/Nav';
-import Main from '@/components/text/main';
+import Main from '@/constants/text/Main';
 
 export default function Home() {
   return (
     <>
-      <header>
-        <Navbar />
-      </header>
-      <main>
-        <Main />
-      </main>
+      <Navbar />
+      <Main />
     </>
   );
 }

@@ -35,7 +35,7 @@ export default function Main() {
           will be an e-commerce site.
         </p>
         <br></br>
-        <Link className="text-sky-500" href="/about">
+        <Link className="text-sky-500" href="/programming">
           my projects ➡️
         </Link>
       </section>

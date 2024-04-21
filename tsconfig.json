@@ -45,7 +45,8 @@
     "paths": {
       "@/*": ["./src/*"],
       "@/public/*": ["./public/*"],
-      "@/components/*": ["./src/components/*"]
+      "@/components/*": ["./src/components/*"],
+      "@/constants/*": ["./src/constants/*"]
     }
   },
 
