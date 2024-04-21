@@ -8,14 +8,6 @@
   --font-inter: ${inter.style.fontFamily};
 }
 
-/*
-@media (prefers-color-scheme: dark) {
-  :root {
-    --base: white;
-  }
-}
-*/
-
 body {
   background: var(--base);
   color: var(--text);
