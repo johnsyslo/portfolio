@@ -4,7 +4,7 @@
 
 :root {
   --primary: #f5f0f5;
-  --text: #f5f0f5;
+  --text: #4c4f69;
   --font-inter: ${inter.style.fontFamily};
 }
 
