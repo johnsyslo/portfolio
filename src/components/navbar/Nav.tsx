@@ -4,14 +4,16 @@ import NavLinks from '@/components/navbar/NavLinks';
 export default function Navbar() {
   return (
     <>
-      <div className="mt-[25px] content-center text-center">
-        <div className="my-6 text-3xl font-bold hover:text-violet-600">
-          <Link href="/">
-            <h1>John Syslo</h1>
-          </Link>
-        </div>
-        <nav className="flex flex-row items-center justify-center">
-          <NavLinks />
+      <div className="mt-[25px] text-center">
+        <nav className="flex flex-row items-center justify-between">
+          <div className="my-6 text-2xl font-bold text-[var(--accent)]">
+            <Link href="/">
+              <h1>js</h1>
+            </Link>
+          </div>
+          <div className="flex flex-row">
+            <NavLinks />
+          </div>
         </nav>
       </div>
     </>
