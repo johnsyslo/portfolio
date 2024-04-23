@@ -18,7 +18,7 @@ export default function Main() {
           websites, after I threw myself into something completely new one weekend.
         </p>
         <br></br>
-        <Link className="hover:underline text-sky-500" href="/about">
+        <Link className="text-sky-500 hover:underline" href="/about">
           about me ➡️
         </Link>
       </section>
@@ -35,20 +35,23 @@ export default function Main() {
           will be an e-commerce site.
         </p>
         <br></br>
-        <Link className="hover:underline text-sky-500" href="/programming">
+        <Link className="text-sky-500 hover:underline" href="/programming">
           my projects ➡️
         </Link>
       </section>
       <section className="mb-[50px] mt-[35px]">
         <h2 className="py-4 text-2xl font-bold">📞 Contact Me</h2>
         <div className="flex flex-row">
-          <Link className="hover:underline mr-5 text-sky-500" href="https://github.com/johnsyslo">
+          <Link className="mr-5 text-sky-500 hover:underline" href="https://github.com/johnsyslo">
             github
           </Link>
-          <Link className="hover:underline mr-5 text-sky-500" href="mailto:jsyslo@proton.me">
+          <Link className="mr-5 text-sky-500 hover:underline" href="mailto:jsyslo@proton.me">
             email
           </Link>
-          <Link className="hover:underline mr-5 text-sky-500" href="https://discord.com/users/1024889708624482354">
+          <Link
+            className="mr-5 text-sky-500 hover:underline"
+            href="https://discord.com/users/1024889708624482354"
+          >
             discord
           </Link>
         </div>

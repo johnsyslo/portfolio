@@ -60,7 +60,10 @@ export default function About() {
           <Link className="hover:underlinemr-5 text-sky-500" href="mailto:jsyslo@proton.me">
             email
           </Link>
-          <Link className="hover:underline mr-5 text-sky-500" href="https://discord.com/users/1024889708624482354">
+          <Link
+            className="mr-5 text-sky-500 hover:underline"
+            href="https://discord.com/users/1024889708624482354"
+          >
             discord
           </Link>
         </div>
