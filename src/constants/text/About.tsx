@@ -57,10 +57,10 @@ export default function About() {
           response.
         </p>
         <div className="flex flex-row">
-          <Link className="mr-5 text-sky-500" href="mailto:jsyslo@proton.me">
+          <Link className="hover:underlinemr-5 text-sky-500" href="mailto:jsyslo@proton.me">
             email
           </Link>
-          <Link className="mr-5 text-sky-500" href="https://discord.com/users/1024889708624482354">
+          <Link className="hover:underline mr-5 text-sky-500" href="https://discord.com/users/1024889708624482354">
             discord
           </Link>
         </div>

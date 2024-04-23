@@ -4,9 +4,8 @@
 
 :root {
   --primary: #f5f0f5;
-  --text: #4c4f69;
+  --text: #f5f0f5;
   --font-inter: ${inter.style.fontFamily};
-  --link:
 }
 
 @media (prefers-color-scheme: dark) {
