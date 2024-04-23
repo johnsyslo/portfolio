@@ -3,13 +3,21 @@
 @tailwind utilities;
 
 :root {
-  --base: #f5f0f5;
+  --primary: #f5f0f5;
   --text: #4c4f69;
   --font-inter: ${inter.style.fontFamily};
+  --link:
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --primary: #4c4f69;
+    --text: #f5f0f5;
+  }
 }
 
 body {
-  background: var(--base);
+  background: var(--primary);
   color: var(--text);
   font-family: var(--font-inter), Arial, sans-serif;
 
