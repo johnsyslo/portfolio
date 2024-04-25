@@ -11,11 +11,12 @@
   --font-inter: ${inter.style.fontFamily};
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #4c4f69;
-    --text: #f5f0f5;
-  }
+[data-theme='dark'] {
+  --background: #1c1c1e;
+  --text: #dedede;
+  --primary: #733fd5;
+  --secondary: #a67ef1;
+  --accent: #8f66db;
 }
 
 body {
