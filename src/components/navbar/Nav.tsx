@@ -1,6 +1,6 @@
 import Link from 'next/link';
 import NavLinks from '@/components/navbar/NavLinks';
-import ThemeSwitch from './ThemeSwitcher';
+import ThemeSwitch from '@/components/navbar/ThemeSwitcher';
 
 export default function Navbar() {
   return (
