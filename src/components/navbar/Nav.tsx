@@ -1,6 +1,5 @@
 import Link from 'next/link';
 import NavLinks from '@/components/navbar/NavLinks';
-import ThemeSwitch from '@/components/navbar/ThemeSwitcher';
 
 export default function Navbar() {
   return (
@@ -14,7 +13,6 @@ export default function Navbar() {
           </div>
           <div className="flex flex-row items-center">
             <NavLinks />
-            <ThemeSwitch />
           </div>
         </nav>
       </div>
