@@ -10,6 +10,9 @@ export default function ThemeSwitch() {
 
   useEffect(() => {
     setMounted(true);
+    if (!theme) {
+      setTheme('light');
+    }
   }, []);
 
   console.log('not mounted');
