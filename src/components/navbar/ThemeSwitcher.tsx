@@ -1,6 +1,6 @@
 'use client';
 
-// import { LuSun, LuMoon } from 'react-icons/lu';
+import { LuSun, LuMoon } from 'react-icons/lu';
 import { useState, useEffect } from 'react';
 import { useTheme } from 'next-themes';
 
@@ -12,19 +12,22 @@ export default function ThemeSwitch() {
     setMounted(true);
   }, []);
 
+  console.log('not mounted');
   if (!mounted) return (
     <span className="m-5"></span>
   );
 
+  console.log('mounted');
+  console.log(theme);
   if (theme === 'dark') {
     return (
-      <p className="mx-3 text-xl hover:text-violet-600" onClick={() => setTheme('light')}>Light</p>
+      <LuSun className="mx-3 text-xl hover:text-violet-600" onClick={() => setTheme('light')} />
     );
   }
 
   if (theme === 'light') {
     return (
-      <p className="mx-3 text-xl hover:text-violet-600" onClick={() => setTheme('dark')}>Dark</p>
+      <LuMoon className="mx-3 text-xl hover:text-violet-600" onClick={() => setTheme('dark')} />
     );
   }
   return null;
