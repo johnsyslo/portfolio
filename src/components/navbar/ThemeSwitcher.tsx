@@ -10,7 +10,7 @@ export default function ThemeSwitch() {
 
   useEffect(() => {
     setMounted(true);
-    if (!theme) {
+    if (!theme || theme == 'system') {
       setTheme('light');
     }
   }, []);
