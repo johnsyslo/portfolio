@@ -15,13 +15,8 @@ export default function ThemeSwitch() {
     }
   }, []);
 
-  console.log('not mounted');
-  if (!mounted) return (
-    <span className="m-5"></span>
-  );
+  if (!mounted) return <span className="m-5"></span>;
 
-  console.log('mounted');
-  console.log(theme);
   if (theme === 'dark') {
     return (
       <LuSun className="mx-3 text-xl hover:text-violet-600" onClick={() => setTheme('light')} />
