@@ -35,9 +35,9 @@ export default function Programming() {
             >
               Guild Bridge
             </Link>
-            , a discord bot that I made for my Minecraft server's guild to connect in game chat to a
-            Discord server. Introduced me to the basics of Javascript with Discord.py and how APIs
-            interact.
+            , a discord bot that I made for my Minecraft server`&apos`s guild to connect in game
+            chat to a Discord server. Introduced me to the basics of Javascript with Discord.py and
+            how APIs interact.
           </p>
         </section>
         <section className="mb-[50px] mt-[35px]">
