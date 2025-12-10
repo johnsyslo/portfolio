@@ -2,6 +2,10 @@
 @tailwind components;
 @tailwind utilities;
 
+html {
+  overflow-y: scroll;
+}
+
 :root {
   --background: #f5f0f5;
   --text: #4c4f69;
