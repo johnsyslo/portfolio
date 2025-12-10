@@ -19,13 +19,19 @@ export default function ThemeSwitch() {
 
   if (theme === 'dark') {
     return (
-      <LuSun className="mx-3 text-xl hover:text-violet-600" onClick={() => setTheme('light')} />
+      <LuSun
+        className="mx-3 text-xl hover:text-[var(--accent)]"
+        onClick={() => setTheme('light')}
+      />
     );
   }
 
   if (theme === 'light') {
     return (
-      <LuMoon className="mx-3 text-xl hover:text-violet-600" onClick={() => setTheme('dark')} />
+      <LuMoon
+        className="mx-3 text-xl hover:text-[var(--accent)]"
+        onClick={() => setTheme('dark')}
+      />
     );
   }
   return null;

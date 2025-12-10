@@ -16,7 +16,7 @@ export default function NavLinks() {
           <Link
             key={link.name}
             href={link.href}
-            className={clsx('px-3 text-base hover:text-violet-600')}
+            className={clsx('px-3 text-base hover:text-[var(--accent)]')}
           >
             <p>{link.name}</p>
           </Link>

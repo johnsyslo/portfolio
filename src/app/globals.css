@@ -7,20 +7,20 @@ html {
 }
 
 :root {
-  --background: #f5f0f5;
-  --text: #4c4f69;
-  --primary: #733fd5;
-  --secondary: #a67ef1;
-  --accent: #8f66db;
+  --background: oklch(96.2% 0.018 272.314); /* Indigo 50 */
+  --text: oklch(37% 0.013 285.805); /* Zinc 900 */
+  --primary: oklch(45.7% 0.24 277.023); /* Indigo 700 */
+  --secondary: oklch(67.3% 0.182 276.935); /* Indigo 400 */
+  --accent: oklch(51.1% 0.262 276.966); /* Indigo 600 */
   --font-inter: ${inter.style.fontFamily};
 }
 
 [data-theme='dark'] {
   --background: #1c1c1e;
-  --text: #dedede;
-  --primary: #733fd5;
-  --secondary: #a67ef1;
-  --accent: #8f66db;
+  --text: #dddddd;
+  --primary: oklch(45.7% 0.24 277.023); /* Indigo 700 */
+  --secondary: oklch(67.3% 0.182 276.935); /* Indigo 400 */
+  --accent: oklch(51.1% 0.262 276.966); /* Indigo 600 */
 }
 
 body {
